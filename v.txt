@@ -1,0 +1,52 @@
+Question 1 :
+
+Two Arrays 
+Website TimeStamp Array : Integer Array | Sorted in order 
+App Time Stamp Array : Integer Array | Sorted in order
+
+user switched from website to App then from app to website.
+Calculate number of times user Switched.
+
+Test case
+
+0 (Number of elements to be put inside website time Stamp Array)
+As its zero so we have not inserted any elements there.
+4 (Number of elements to be put inside App time Stamp Array)
+1
+15
+67
+24
+
+O/P : 0
+
+Question 2 :
+
+four arrays 
+
+CustomerAccountNumber {Account Number List | Array Of String}
+customerDues {Array of Invoice Amount | integer Array}
+Cheque{Array Of Account number who paid via cheque | String Array}
+Cheque{Array of amount paid by cheque | Array of Integer}
+
+
+please find how many customer accounts are there whose dues are not exact as cheque amount.
+
+Test Case :
+
+InPut : 
+
+2
+Test.inc
+Test1.inc
+2
+900
+368
+2
+Test.inc
+Test1.inc
+2
+901
+368
+
+Out Put :
+1
