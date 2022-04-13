@@ -1,0 +1,48 @@
+NewU$er@Pers1stent
+CHIT SHIT BANA LO
+
+DSR Algo
+
+
+aGGRIGATION
+
+SOLID DESIGN PATTERN
+
+
+Searching binary search
+Recursive 
+iterative
+Sorting....
+
+Logical Programming...
+Prime number
+Factorial program : Big decimal,Byte Array
+Cassendra
+Mongo DB
+ACID PROPERTY
+JVM CONFIGUATION
+TYPES OF GARBAGE COLLECTOR
+COLLECTIONS LOAD FACTOR
+TIME COMPLEXITY 
+bIG O NOTATION
+HELLO  FREQUENCY COUNT
+
+
+KAFKA,ELASTIC SEARCH
+
+
+JAVA : COLLECTION FRAMEWORK
+LIST 
+SET
+QUES
+DECUES
+BLOCKING Q
+STACK
+VECTOR
+
+
+
+
+
+
+https://outlook.com/owa/persistent.co.in

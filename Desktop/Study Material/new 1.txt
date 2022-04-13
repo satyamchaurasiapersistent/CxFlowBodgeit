@@ -1,0 +1,35 @@
+Hi Satyam,
+
+Please start reading through below material. 
+
+Below links contains all the videos on persistent teams that covers most of the cxflow with code walkthrough.
+https://persistentsystems.sharepoint.com/:f:/r/sites/CheckmarxPluginPoC/Shared%20Documents/Checkmarx%20KT/Cx-flow%20KT?csf=1&web=1&e=P45A6T 
+ 
+
+CxFlow (Product that we own the development for)
+Read Quick Start and Configuration pages provided on the home page.
+https://github.com/checkmarx-ltd/cx-flow/wiki
+Then refer chapters  ‘Execution’, ‘Tutorials’, ‘Configuration’ and ‘Development’ chapters. 
+ 
+Clone the code https://github.com/checkmarx-ltd/cx-flow
+ 
+CxSAST Product – product that scans any source code
+Read through overview, architecture, Quick Start and User guide. Links are at the below page.
+https://checkmarx.atlassian.net/wiki/spaces/KC/pages/59211846/CxSAST+Overview
+ 
+CxSCA – Product that scans third-party dependencies
+Read through Quick Start and User guide. Links are at the below page.
+https://checkmarx.atlassian.net/wiki/spaces/CD/overview
+ 
+Demo video
+https://www.youtube.com/watch?v=W1Wk3PN0o1M
+https://www.youtube.com/watch?v=ELnE3Z410oU
+https://www.youtube.com/watch?v=1ucJvsn8uT8
+
+
+For all the persistent domain link you will required read access, @Umesh Waghode can provide you the access.
+
+You will able to access the some of the links after you get your checkmarx account.
+
+Thanks & Regards,
+Dhaval Patel. 
