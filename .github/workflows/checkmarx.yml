@@ -14,7 +14,7 @@ on:
     # The branches below must be a subset of the branches above
     branches: [ main ]
   schedule:
-    - cron: '20 23 * * 5'
+    - cron: '22 12 * * 5'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel - this job is specifically configured to use the Checkmarx CxFlow Action
 permissions:
@@ -39,8 +39,8 @@ jobs:
     - name: Checkmarx CxFlow Action
       uses: checkmarx-ts/checkmarx-cxflow-github-action@9975af7d6b957abec9ee9646effa3fb3b82c5314
       with:
-        project: ${{ secrets.CHECKMARX_PROJECT }}
-        team: ${{ secrets.CHECKMARX_TEAMS }}
+        project: GitHub-Test-Project
+        team: '/CxServer'
         checkmarx_url: ${{ secrets.CHECKMARX_URL }}
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
