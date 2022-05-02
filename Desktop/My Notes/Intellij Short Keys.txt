@@ -1,9 +1,0 @@
-duplicate line : ctrl + d
-delete line ctrl + y
-reformat code :  Ctrl+Alt+Shift+L
-run project : shift+f10
-debug : shift+f9
-stop : ctrl + f2
-remove unused import : ctrl + alt + O
-
-https://checkmarx.okta.com/
