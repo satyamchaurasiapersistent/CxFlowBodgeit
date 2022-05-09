@@ -47,7 +47,7 @@ jobs:
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
         scanners: sast
         incremental: false
-        params: --namespace=${{ github.repository_owner }} --repo-url=https://github.com/satyamchaurasiapersistent/CxFlowBodgeit.git --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory --cx-flow.bug-tracker=GitHub --checkmarx.disable-clubbing=true
+        params: --namespace=${{ github.repository_owner }} --repo-url=${{ github.event.repository.url }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory --cx-flow.bug-tracker=GitHub --checkmarx.disable-clubbing=true
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v2
       with:
