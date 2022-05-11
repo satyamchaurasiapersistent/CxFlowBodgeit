@@ -45,7 +45,7 @@ jobs:
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
         checkmarx_client_secret: ${{ secrets.REPO_PARAMS_URL }}
-        checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
+        repo-url: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
         scanners: sast
         incremental: false
         params: --namespace=${{ github.repository_owner }} --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory --cx-flow.bug-tracker=GitHub --checkmarx.disable-clubbing=true
