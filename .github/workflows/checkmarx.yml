@@ -45,9 +45,9 @@ jobs:
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
         checkmarx_client_secret: ${{ secrets.CHECKMARX_CLIENT_SECRET }}
-        sca_password: ${{ secrets.CHECKMARX_SCA_PASSWORD }}
-        sca_username: ${{ secrets.CHECKMARX_SCA_USERNAME }}
-        sca_tenant: ${{ secrets.CHECKMARX_SCA_TENANT }}
+        sca_password: ${{ secrets.SCA_PASSWORD }}
+        sca_username: ${{ secrets.SCA_USERNAME }}
+        sca_tenant: ${{ secrets.SCA_TENANT }}
         scanners: sca
         incremental: false
         params: --namespace=${{ github.repository_owner }} --repo-url=${{ github.event.repository.url }}  --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory
