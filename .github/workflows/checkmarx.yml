@@ -48,7 +48,7 @@ jobs:
         sca_password: ${{ secrets.SCA_PASSWORD }}
         sca_username: ${{ secrets.SCA_USERNAME }}
         sca_tenant: ${{ secrets.SCA_TENANT }}
-        scanners: sca
+        scanners: sast,sca
         incremental: false
         params: --namespace=${{ github.repository_owner }} --repo-url=${{ github.event.repository.url }}  --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory
     - name: Upload SARIF file
