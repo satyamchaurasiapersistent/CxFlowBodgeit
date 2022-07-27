@@ -50,7 +50,7 @@ jobs:
         sca_tenant: ${{ secrets.SCA_TENANT }}
         scanners: sast,sca
         incremental: false
-        params: --namespace=${{ github.repository_owner }} --repo-url=${{ github.event.repository.url }}  --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory
+        params: --namespace=${{ github.repository_owner }} --repo-url=${{ github.event.repository.url }}  --repo-name=${{ github.event.repository.name }} --branch=${{ github.ref }} --cx-flow.filterSeverity --cx-flow.filterCategory --cx-flow.preserve-project-name=true
     - name: Upload SARIF file
       uses: github/codeql-action/upload-sarif@v2
       with:
