@@ -40,7 +40,7 @@ jobs:
       uses: satyamchaurasiapersistent/checkmarx-cxflow-github-action@399b896d92b8ec01cfccdc6b64e874adf733a34e
       with:
         project: ${{ github.repository }}-PR
-        team: '/CxServer/satyamchaurasiapersistent'
+        team: '/CxServer'
         checkmarx_url: ${{ secrets.CHECKMARX_URL }}
         checkmarx_username: ${{ secrets.CHECKMARX_USERNAME }}
         checkmarx_password: ${{ secrets.CHECKMARX_PASSWORD }}
