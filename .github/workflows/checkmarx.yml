@@ -27,7 +27,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Checkmarx CxFlow Action
-      uses: satyamchaurasiapersistent/checkmarx-cxflow-github-action@ac9d11acec07b67bc46987580858ef2013dc6bbb #Github Action version
+      uses: satyamchaurasiapersistent/checkmarx-cxflow-github-action@09be7cbdf1d253e6d73422a1103b8b7bbfb05021 #Github Action version
       with:
         project: ${{ github.event.repository.name }} # <-- Insert Checkmarx SAST Project Name
         team: ${{ secrets.CHECKMARX_TEAMS }}
